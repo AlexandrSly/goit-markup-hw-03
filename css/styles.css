@@ -1,0 +1,270 @@
+:root {
+  --main-title-color: #212121;
+  --second-title-color: #757575;
+  --main-btn-color: #2196f3;
+  --maine-link-color: #2196f3;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  background-color: #ffffff;
+  color: #757575;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* колір заголовков #212121 */
+/* колір основного текста #757575 */
+/* active 2196F3 */
+/* свторинний колір фону #F5F4FA */
+
+/* Heder */
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--maine-link-color);
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--maine-link-color);
+}
+
+.logo-studio {
+  color: var(--main-title-color);
+}
+
+.logo-studio:hover,
+.logo-studio:focus {
+  color: var(--maine-link-color);
+}
+
+/* ----------------site nav---------------- */
+
+.site-nav {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-title-color);
+}
+
+.site-nav:hover,
+.site-nav:focus {
+  color: #2196f3;
+}
+
+.auth-nav {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--second-title-color);
+}
+
+.auth-nav:hover,
+.auth-nav:focus {
+  color: #2196f3;
+}
+
+/* ----------------Hero---------------- */
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero {
+  background: #2f303a;
+}
+
+.btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #2196f3;
+  cursor: pointer;
+}
+
+.btn.primary {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.btn.secondary {
+  color: #2196f3;
+  background-color: #ffffff;
+}
+
+.btn:hover,
+.btn:focus {
+  color: #ffffff;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--main-title-color);
+}
+
+.benefits-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--main-title-color);
+}
+
+.benefits-subtitle {
+  line-height: 1.71;
+}
+
+.section-subtitle {
+  color: var(--second-title-color);
+}
+
+.team-title {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--main-title-color);
+}
+
+.team-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--second-title-color);
+}
+
+.team {
+  background: #f5f4fa;
+}
+/* ----------------Портфоліо---------------- */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-title-color);
+}
+
+.portfolio-subtitle {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--second-title-color);
+}
+
+/* ----------------Footer---------------- */
+
+.footer {
+  background-color: #2f303a;
+}
+
+.footer-link {
+  font-style: normal;
+}
+
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.19;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.portfolio-btn {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.portfolio-adress {
+  font-weight: 500;
+  line-height: 1.71;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.portfolio-adress:hover,
+.portfolio-adress:focus {
+  color: #2196f3;
+}
+
+.current {
+  color: var(--maine-link-color);
+}
+
+.portfolio-contacts {
+  font-weight: 500;
+  line-height: 1.71;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.portfolio-contacts:hover,
+.portfolio-contacts:focus {
+  color: #2196f3;
+}
