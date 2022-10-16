@@ -38,6 +38,7 @@ button {
 
 address {
   font-style: normal;
+  margin-top: 20px;
 }
 
 img {
@@ -132,8 +133,8 @@ html {
 
 /* ----------------site nav---------------- */
 .header {
-  padding: 32px 0;
-  margin-bottom: 93px;
+  padding: 25px 0;
+  border: 1px solid var(--second-title-color);
 }
 .main-menu {
   display: flex;
@@ -305,7 +306,6 @@ html {
 
 .team {
   padding: 94px 0;
-  padding-top: 0;
   background: #f5f4fa;
 }
 
@@ -313,9 +313,10 @@ html {
   display: flex;
   gap: 30px;
 }
-.team-conteiner {
-  padding-top: 94px;
-  padding-bottom: 94px;
+
+.team-text {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-title {
@@ -323,7 +324,7 @@ html {
   line-height: 1.19;
   text-align: center;
   color: var(--main-title-color);
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .team-subtitle {
@@ -333,10 +334,22 @@ html {
   text-align: center;
   color: var(--second-title-color);
   margin-top: 10px;
-  margin-bottom: 30px;
+}
+
+.team-person {
+  background: #ffffff;
+  /* material shadow v1 */
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 /* ----------------Портфоліо---------------- */
+.section-portfolio {
+  padding: 94px 0;
+}
+
 .portfolio-menu {
   display: flex;
   gap: 8px;
@@ -347,15 +360,11 @@ html {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 94px;
   gap: 30px;
 }
 
 .flex-element {
   width: 370px;
-
-  margin-top: 0;
-  outline: 1px solid #eeeeee;
 }
 
 .visually-hidden {
@@ -377,25 +386,19 @@ html {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-title-color);
-  padding-left: 24px;
-  margin-top: 20px;
 }
 
 .portfolio-subtitle {
   font-size: 16px;
   line-height: 1.88;
   color: var(--second-title-color);
-  padding-left: 24px;
   margin-top: 4px;
-  margin-bottom: 20px;
 }
 
-.test-conteiner {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
+.portfolio-item {
+  padding: 20px 24px;
+  border: 1px solid #eeeeee;
 }
-
 .flex-element:nth-child(3n) {
   margin-right: 0;
 }
@@ -404,13 +407,13 @@ html {
 
 .footer {
   background-color: #2f303a;
+  padding: 60px 0;
 }
 
 .conteiner-div {
   margin-left: auto;
   margin-right: auto;
-
-  padding: 111px 15px 60px 15px;
+  padding: 0 15px;
   width: 1200px;
 }
 
@@ -428,6 +431,11 @@ html {
   color: #ffffff;
 }
 
+.footer-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+/* ----------------Портфоліо---------------- */
+
 .portfolio-btn {
   font-family: 'Roboto';
   font-style: normal;
@@ -439,6 +447,7 @@ html {
   color: var(--main-title-color);
   background-color: #f5f4fa;
   cursor: pointer;
+  padding: 6px 22px;
 }
 
 .portfolio-btn:hover,
