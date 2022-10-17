@@ -324,7 +324,6 @@ html {
   line-height: 1.19;
   text-align: center;
   color: var(--main-title-color);
-  margin-top: 10px;
 }
 
 .team-subtitle {
@@ -353,8 +352,8 @@ html {
 .portfolio-menu {
   display: flex;
   gap: 8px;
-  padding-bottom: 34px;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .portfolio-list {
